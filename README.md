@@ -28,7 +28,7 @@ U(x_t,r,t) = \frac{1}{t-r}\int_{r}^{t} V(x_{\tau},\tau)d\tau \;\;\;\;\text{defin
 U(x_t,r,t) = V(x_t,t) - (t-r)\frac{\mathrm{d}{}}{\mathrm{d}t}U
 \\
 \\
-\\u\_tgt = (x_1-x_0) - \frac{\mathrm{d}{}}{\mathrm{d}t}U
+\\u\_tgt = (x_1-x_0) - (t-r)\frac{\mathrm{d}{}}{\mathrm{d}t}U
 \\loss = \Vert U(x_t,r,t) - sg(u\_tgt) \Vert^2
 \end{split}
 ```
